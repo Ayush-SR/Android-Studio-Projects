@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Broadcast rec Exa4"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/idTextStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Headset Status:"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="35sp"
+        android:layout_marginTop="12sp"/>
+
+
+    <TextView
+        android:id="@+id/iDTextBattery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battery Info:"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="35sp"
+        android:layout_marginTop="12sp"/>
+
+    <ImageView
+        android:id="@+id/idImageBattery"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
